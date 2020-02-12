@@ -8,13 +8,17 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
+    <h1>
+      Need your out of date website redone!
+    </h1>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <Image />
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <p>will take your old out of date static webpage and 
+      turn it into a super speed webpage using GatsbyJS.
+    </p>
+
+    {/*<Link to="/page-2/">Go to page 2</Link>*/}
   </Layout>
 )
 
