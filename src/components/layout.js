@@ -11,6 +11,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import "./layout.css"
+import Logo from "../images/gatsby-icon.png"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -37,7 +38,8 @@ const Layout = ({ children }) => {
         <footer>
           SitesReDone © {new Date().getFullYear()}, Built with
           {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <a href="https://www.gatsbyjs.org">
+            <img src={Logo} alt="Logo" style={{maxHeight: `25px`}}/>Gatsby</a>
         </footer>
       </div>
     </>

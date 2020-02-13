@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `SitesReDone`,
-    description: `Have your outdated static website revitalize by SiteReDone using GatsbyJS.`,
+    description: `Need your site redone?`,
     author: `@SitesReDone`,
   },
   plugins: [
@@ -24,7 +24,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/SRD_icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/srd_iconB.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
