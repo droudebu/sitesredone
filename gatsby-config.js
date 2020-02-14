@@ -1,10 +1,18 @@
 module.exports = {
   siteMetadata: {
     title: `SitesReDone`,
-    description: `Need your site redone?`,
+    description: `Is your site out of date? Does it need redone!`,
     author: `@SitesReDone`,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-robots-txt`,
+      options: {
+        host: `https://www.sitesredone.com`,
+        sitemap: `https://www.sitesredone.com/sitemap.xml`,
+        policy: [{ userAgent: '*', allow: '/'}]
+      }
+    }
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
