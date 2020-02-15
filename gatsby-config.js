@@ -1,18 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `SitesReDone`,
+    title: `Sitesredone`,
     description: `Is your site out of date? Does it need redone!`,
-    author: `@SitesReDone`,
+    author: `@Sitesredone`,
   },
   plugins: [
-    {
-      resolve: `gatsby-plugin-robots-txt`,
-      options: {
-        host: `https://www.sitesredone.com`,
-        sitemap: `https://www.sitesredone.com/sitemap.xml`,
-        policy: [{ userAgent: '*', allow: '/'}]
-      }
-    }
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -32,7 +24,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/srd_iconB.png`, // This path is relative to the root of the site.
+        icon: `src/images/icon_srd.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

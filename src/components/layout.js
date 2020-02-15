@@ -38,8 +38,7 @@ const Layout = ({ children }) => {
         <footer>
           SitesReDone © {new Date().getFullYear()}, Built with
           {` `}
-          <a href="https://www.gatsbyjs.org">
-            <img src={Logo} alt="Logo" style={{maxHeight: `25px`}}/>Gatsby</a>
+          <a href="https://www.gatsbyjs.org">Gatsby</a>
         </footer>
       </div>
     </>

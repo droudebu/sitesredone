@@ -13,13 +13,13 @@ const IndexPage = ({data}) => (
     <h1>
       Need your site redone?
     </h1>
-    <div style={{ maxWidth: `75px`, marginBottom: `1.45rem` }}>
+    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
     <Image />
     </div>
     <p>will take your old out of date static webpage and 
       turn it into a super speed webpage using GatsbyJS.
     </p>
-    <img src={imgLogo} alt="Logo" />
+    {/*<img src={imgLogo} alt="Logo" />*/}
 
     {/*<Link to="/page-2/">Go to page 2</Link>*/}
   </Layout>
